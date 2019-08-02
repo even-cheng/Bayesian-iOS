@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		861EFBF92124338D00071E03 /* CYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 861EFBF72124338D00071E03 /* CYAlertView.m */; };
+		861EFC01212443CE00071E03 /* TrueModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 861EFC00212443CE00071E03 /* TrueModel.m */; };
+		861EFC08212443E900071E03 /* DBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 861EFC04212443E900071E03 /* DBModel.m */; };
+		861EFC09212443E900071E03 /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 861EFC05212443E900071E03 /* DBHelper.m */; };
+		861EFC0C212443F100071E03 /* FalseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 861EFC0B212443F100071E03 /* FalseModel.m */; };
+		861EFC2D2124462E00071E03 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 861EFC1E2124462E00071E03 /* README.markdown */; };
+		861EFC2E2124462E00071E03 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 861EFC1F2124462E00071E03 /* LICENSE.txt */; };
+		861EFC2F2124462E00071E03 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 861EFC232124462E00071E03 /* FMDatabaseQueue.m */; };
+		861EFC302124462E00071E03 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 861EFC262124462E00071E03 /* FMDatabaseAdditions.m */; };
+		861EFC312124462E00071E03 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 861EFC272124462E00071E03 /* FMDatabase.m */; };
+		861EFC322124462E00071E03 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 861EFC2B2124462E00071E03 /* FMDatabasePool.m */; };
+		861EFC332124462E00071E03 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 861EFC2C2124462E00071E03 /* FMResultSet.m */; };
+		86C9389921241429003A8645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C9389821241429003A8645 /* AppDelegate.m */; };
+		86C9389C21241429003A8645 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86C9389B21241429003A8645 /* ViewController.mm */; };
+		86C9389F2124142A003A8645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C9389D2124142A003A8645 /* Main.storyboard */; };
+		86C938A12124142A003A8645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C938A02124142A003A8645 /* Assets.xcassets */; };
+		86C938A42124142A003A8645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C938A22124142A003A8645 /* LaunchScreen.storyboard */; };
+		86C938A72124142A003A8645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C938A62124142A003A8645 /* main.m */; };
+		86C938B12124142A003A8645 /* Bayesian_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C938B02124142A003A8645 /* Bayesian_iOSTests.m */; };
+		86C938BC2124142A003A8645 /* Bayesian_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C938BB2124142A003A8645 /* Bayesian_iOSUITests.m */; };
+		86C938CC21241461003A8645 /* false.txt in Resources */ = {isa = PBXBuildFile; fileRef = 86C938CB21241444003A8645 /* false.txt */; };
+		86C938CE21241461003A8645 /* true.txt in Resources */ = {isa = PBXBuildFile; fileRef = 86C938CA21241444003A8645 /* true.txt */; };
+		86C939C12124181C003A8645 /* Segmentor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86C9399E2124181C003A8645 /* Segmentor.cpp */; };
+		86C939C22124181C003A8645 /* iosjieba.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 86C9399F2124181C003A8645 /* iosjieba.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86C938AD2124142A003A8645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86C9388C21241429003A8645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86C9389321241429003A8645;
+			remoteInfo = "Bayesian-iOS";
+		};
+		86C938B82124142A003A8645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86C9388C21241429003A8645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86C9389321241429003A8645;
+			remoteInfo = "Bayesian-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		861EFBF72124338D00071E03 /* CYAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYAlertView.m; sourceTree = "<group>"; };
+		861EFBF82124338D00071E03 /* CYAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYAlertView.h; sourceTree = "<group>"; };
+		861EFBFF212443CE00071E03 /* TrueModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrueModel.h; sourceTree = "<group>"; };
+		861EFC00212443CE00071E03 /* TrueModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrueModel.m; sourceTree = "<group>"; };
+		861EFC04212443E900071E03 /* DBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBModel.m; sourceTree = "<group>"; };
+		861EFC05212443E900071E03 /* DBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHelper.m; sourceTree = "<group>"; };
+		861EFC06212443E900071E03 /* DBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBModel.h; sourceTree = "<group>"; };
+		861EFC07212443E900071E03 /* DBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHelper.h; sourceTree = "<group>"; };
+		861EFC0A212443F100071E03 /* FalseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FalseModel.h; sourceTree = "<group>"; };
+		861EFC0B212443F100071E03 /* FalseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FalseModel.m; sourceTree = "<group>"; };
+		861EFC1E2124462E00071E03 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		861EFC1F2124462E00071E03 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		861EFC222124462E00071E03 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		861EFC232124462E00071E03 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		861EFC242124462E00071E03 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		861EFC252124462E00071E03 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		861EFC262124462E00071E03 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		861EFC272124462E00071E03 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		861EFC282124462E00071E03 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		861EFC292124462E00071E03 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		861EFC2A2124462E00071E03 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		861EFC2B2124462E00071E03 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		861EFC2C2124462E00071E03 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		86C9389421241429003A8645 /* Bayesian-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bayesian-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C9389721241429003A8645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86C9389821241429003A8645 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86C9389A21241429003A8645 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86C9389B21241429003A8645 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		86C9389E2124142A003A8645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86C938A02124142A003A8645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86C938A32124142A003A8645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86C938A52124142A003A8645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C938A62124142A003A8645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86C938AC2124142A003A8645 /* Bayesian-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bayesian-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C938B02124142A003A8645 /* Bayesian_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bayesian_iOSTests.m; sourceTree = "<group>"; };
+		86C938B22124142A003A8645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C938B72124142A003A8645 /* Bayesian-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bayesian-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C938BB2124142A003A8645 /* Bayesian_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bayesian_iOSUITests.m; sourceTree = "<group>"; };
+		86C938BD2124142A003A8645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C938CA21241444003A8645 /* true.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = true.txt; sourceTree = "<group>"; };
+		86C938CB21241444003A8645 /* false.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = false.txt; sourceTree = "<group>"; };
+		86C9399E2124181C003A8645 /* Segmentor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Segmentor.cpp; sourceTree = "<group>"; };
+		86C9399F2124181C003A8645 /* iosjieba.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iosjieba.bundle; sourceTree = "<group>"; };
+		86C939C02124181C003A8645 /* Segmentor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Segmentor.h; sourceTree = "<group>"; };
+		86C939C421241971003A8645 /* DictTrie.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DictTrie.hpp; sourceTree = "<group>"; };
+		86C939C521241971003A8645 /* ISegment.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ISegment.hpp; sourceTree = "<group>"; };
+		86C939C621241971003A8645 /* FullSegment.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FullSegment.hpp; sourceTree = "<group>"; };
+		86C939C721241971003A8645 /* MixSegment.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MixSegment.hpp; sourceTree = "<group>"; };
+		86C939C821241971003A8645 /* MPSegment.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MPSegment.hpp; sourceTree = "<group>"; };
+		86C939C921241971003A8645 /* KeywordExtractor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KeywordExtractor.hpp; sourceTree = "<group>"; };
+		86C939CA21241971003A8645 /* PosTagger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PosTagger.hpp; sourceTree = "<group>"; };
+		86C939CB21241971003A8645 /* TransCode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TransCode.hpp; sourceTree = "<group>"; };
+		86C939CC21241971003A8645 /* Trie.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Trie.hpp; sourceTree = "<group>"; };
+		86C939CE21241971003A8645 /* ThreadPool.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ThreadPool.hpp; sourceTree = "<group>"; };
+		86C939CF21241971003A8645 /* Logger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Logger.hpp; sourceTree = "<group>"; };
+		86C939D021241971003A8645 /* StdExtension.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StdExtension.hpp; sourceTree = "<group>"; };
+		86C939D121241971003A8645 /* HandyMacro.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HandyMacro.hpp; sourceTree = "<group>"; };
+		86C939D221241971003A8645 /* StringUtil.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StringUtil.hpp; sourceTree = "<group>"; };
+		86C939D321241971003A8645 /* LocalVector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LocalVector.hpp; sourceTree = "<group>"; };
+		86C939D421241971003A8645 /* BlockingQueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BlockingQueue.hpp; sourceTree = "<group>"; };
+		86C939D521241971003A8645 /* InitOnOff.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = InitOnOff.hpp; sourceTree = "<group>"; };
+		86C939D621241971003A8645 /* Config.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Config.hpp; sourceTree = "<group>"; };
+		86C939D721241971003A8645 /* MysqlClient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MysqlClient.hpp; sourceTree = "<group>"; };
+		86C939D821241971003A8645 /* CastFloat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CastFloat.hpp; sourceTree = "<group>"; };
+		86C939D921241971003A8645 /* BoundedQueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BoundedQueue.hpp; sourceTree = "<group>"; };
+		86C939DA21241971003A8645 /* ArgvContext.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ArgvContext.hpp; sourceTree = "<group>"; };
+		86C939DB21241971003A8645 /* Condition.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Condition.hpp; sourceTree = "<group>"; };
+		86C939DC21241971003A8645 /* Md5.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Md5.hpp; sourceTree = "<group>"; };
+		86C939DD21241971003A8645 /* Thread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Thread.hpp; sourceTree = "<group>"; };
+		86C939DE21241971003A8645 /* MutexLock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MutexLock.hpp; sourceTree = "<group>"; };
+		86C939DF21241971003A8645 /* NonCopyable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NonCopyable.hpp; sourceTree = "<group>"; };
+		86C939E021241971003A8645 /* QuerySegment.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = QuerySegment.hpp; sourceTree = "<group>"; };
+		86C939E121241971003A8645 /* SegmentBase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SegmentBase.hpp; sourceTree = "<group>"; };
+		86C939E221241971003A8645 /* HMMSegment.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HMMSegment.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86C9389121241429003A8645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C938A92124142A003A8645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C938B42124142A003A8645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		861EFC02212443D500071E03 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				861EFBFF212443CE00071E03 /* TrueModel.h */,
+				861EFC00212443CE00071E03 /* TrueModel.m */,
+				861EFC0A212443F100071E03 /* FalseModel.h */,
+				861EFC0B212443F100071E03 /* FalseModel.m */,
+			);
+			path = Datas;
+			sourceTree = "<group>";
+		};
+		861EFC03212443E900071E03 /* DBModel */ = {
+			isa = PBXGroup;
+			children = (
+				861EFC04212443E900071E03 /* DBModel.m */,
+				861EFC05212443E900071E03 /* DBHelper.m */,
+				861EFC06212443E900071E03 /* DBModel.h */,
+				861EFC07212443E900071E03 /* DBHelper.h */,
+			);
+			path = DBModel;
+			sourceTree = "<group>";
+		};
+		861EFC1D2124462E00071E03 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				861EFC1E2124462E00071E03 /* README.markdown */,
+				861EFC1F2124462E00071E03 /* LICENSE.txt */,
+				861EFC202124462E00071E03 /* src */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		861EFC202124462E00071E03 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				861EFC212124462E00071E03 /* fmdb */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		861EFC212124462E00071E03 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				861EFC222124462E00071E03 /* FMDatabase.h */,
+				861EFC232124462E00071E03 /* FMDatabaseQueue.m */,
+				861EFC242124462E00071E03 /* FMResultSet.h */,
+				861EFC252124462E00071E03 /* FMDatabasePool.h */,
+				861EFC262124462E00071E03 /* FMDatabaseAdditions.m */,
+				861EFC272124462E00071E03 /* FMDatabase.m */,
+				861EFC282124462E00071E03 /* FMDatabaseQueue.h */,
+				861EFC292124462E00071E03 /* FMDB.h */,
+				861EFC2A2124462E00071E03 /* FMDatabaseAdditions.h */,
+				861EFC2B2124462E00071E03 /* FMDatabasePool.m */,
+				861EFC2C2124462E00071E03 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		86C9388B21241429003A8645 = {
+			isa = PBXGroup;
+			children = (
+				86C9389621241429003A8645 /* Bayesian-iOS */,
+				86C938AF2124142A003A8645 /* Bayesian-iOSTests */,
+				86C938BA2124142A003A8645 /* Bayesian-iOSUITests */,
+				86C9389521241429003A8645 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86C9389521241429003A8645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86C9389421241429003A8645 /* Bayesian-iOS.app */,
+				86C938AC2124142A003A8645 /* Bayesian-iOSTests.xctest */,
+				86C938B72124142A003A8645 /* Bayesian-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86C9389621241429003A8645 /* Bayesian-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				861EFC1D2124462E00071E03 /* FMDB */,
+				861EFC03212443E900071E03 /* DBModel */,
+				861EFC02212443D500071E03 /* Datas */,
+				86C9399D2124181C003A8645 /* Source */,
+				86C938CB21241444003A8645 /* false.txt */,
+				86C938CA21241444003A8645 /* true.txt */,
+				86C9389721241429003A8645 /* AppDelegate.h */,
+				86C9389821241429003A8645 /* AppDelegate.m */,
+				861EFBF82124338D00071E03 /* CYAlertView.h */,
+				861EFBF72124338D00071E03 /* CYAlertView.m */,
+				86C9389A21241429003A8645 /* ViewController.h */,
+				86C9389B21241429003A8645 /* ViewController.mm */,
+				86C9389D2124142A003A8645 /* Main.storyboard */,
+				86C938A02124142A003A8645 /* Assets.xcassets */,
+				86C938A22124142A003A8645 /* LaunchScreen.storyboard */,
+				86C938A52124142A003A8645 /* Info.plist */,
+				86C938A62124142A003A8645 /* main.m */,
+			);
+			path = "Bayesian-iOS";
+			sourceTree = "<group>";
+		};
+		86C938AF2124142A003A8645 /* Bayesian-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				86C938B02124142A003A8645 /* Bayesian_iOSTests.m */,
+				86C938B22124142A003A8645 /* Info.plist */,
+			);
+			path = "Bayesian-iOSTests";
+			sourceTree = "<group>";
+		};
+		86C938BA2124142A003A8645 /* Bayesian-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86C938BB2124142A003A8645 /* Bayesian_iOSUITests.m */,
+				86C938BD2124142A003A8645 /* Info.plist */,
+			);
+			path = "Bayesian-iOSUITests";
+			sourceTree = "<group>";
+		};
+		86C9399D2124181C003A8645 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				86C939C321241971003A8645 /* CppJieba */,
+				86C9399E2124181C003A8645 /* Segmentor.cpp */,
+				86C9399F2124181C003A8645 /* iosjieba.bundle */,
+				86C939C02124181C003A8645 /* Segmentor.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		86C939C321241971003A8645 /* CppJieba */ = {
+			isa = PBXGroup;
+			children = (
+				86C939C421241971003A8645 /* DictTrie.hpp */,
+				86C939C521241971003A8645 /* ISegment.hpp */,
+				86C939C621241971003A8645 /* FullSegment.hpp */,
+				86C939C721241971003A8645 /* MixSegment.hpp */,
+				86C939C821241971003A8645 /* MPSegment.hpp */,
+				86C939C921241971003A8645 /* KeywordExtractor.hpp */,
+				86C939CA21241971003A8645 /* PosTagger.hpp */,
+				86C939CB21241971003A8645 /* TransCode.hpp */,
+				86C939CC21241971003A8645 /* Trie.hpp */,
+				86C939CD21241971003A8645 /* Limonp */,
+				86C939E021241971003A8645 /* QuerySegment.hpp */,
+				86C939E121241971003A8645 /* SegmentBase.hpp */,
+				86C939E221241971003A8645 /* HMMSegment.hpp */,
+			);
+			path = CppJieba;
+			sourceTree = "<group>";
+		};
+		86C939CD21241971003A8645 /* Limonp */ = {
+			isa = PBXGroup;
+			children = (
+				86C939CE21241971003A8645 /* ThreadPool.hpp */,
+				86C939CF21241971003A8645 /* Logger.hpp */,
+				86C939D021241971003A8645 /* StdExtension.hpp */,
+				86C939D121241971003A8645 /* HandyMacro.hpp */,
+				86C939D221241971003A8645 /* StringUtil.hpp */,
+				86C939D321241971003A8645 /* LocalVector.hpp */,
+				86C939D421241971003A8645 /* BlockingQueue.hpp */,
+				86C939D521241971003A8645 /* InitOnOff.hpp */,
+				86C939D621241971003A8645 /* Config.hpp */,
+				86C939D721241971003A8645 /* MysqlClient.hpp */,
+				86C939D821241971003A8645 /* CastFloat.hpp */,
+				86C939D921241971003A8645 /* BoundedQueue.hpp */,
+				86C939DA21241971003A8645 /* ArgvContext.hpp */,
+				86C939DB21241971003A8645 /* Condition.hpp */,
+				86C939DC21241971003A8645 /* Md5.hpp */,
+				86C939DD21241971003A8645 /* Thread.hpp */,
+				86C939DE21241971003A8645 /* MutexLock.hpp */,
+				86C939DF21241971003A8645 /* NonCopyable.hpp */,
+			);
+			path = Limonp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86C9389321241429003A8645 /* Bayesian-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C938C02124142A003A8645 /* Build configuration list for PBXNativeTarget "Bayesian-iOS" */;
+			buildPhases = (
+				86C9389021241429003A8645 /* Sources */,
+				86C9389121241429003A8645 /* Frameworks */,
+				86C9389221241429003A8645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bayesian-iOS";
+			productName = "Bayesian-iOS";
+			productReference = 86C9389421241429003A8645 /* Bayesian-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86C938AB2124142A003A8645 /* Bayesian-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C938C32124142A003A8645 /* Build configuration list for PBXNativeTarget "Bayesian-iOSTests" */;
+			buildPhases = (
+				86C938A82124142A003A8645 /* Sources */,
+				86C938A92124142A003A8645 /* Frameworks */,
+				86C938AA2124142A003A8645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86C938AE2124142A003A8645 /* PBXTargetDependency */,
+			);
+			name = "Bayesian-iOSTests";
+			productName = "Bayesian-iOSTests";
+			productReference = 86C938AC2124142A003A8645 /* Bayesian-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86C938B62124142A003A8645 /* Bayesian-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C938C62124142A003A8645 /* Build configuration list for PBXNativeTarget "Bayesian-iOSUITests" */;
+			buildPhases = (
+				86C938B32124142A003A8645 /* Sources */,
+				86C938B42124142A003A8645 /* Frameworks */,
+				86C938B52124142A003A8645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86C938B92124142A003A8645 /* PBXTargetDependency */,
+			);
+			name = "Bayesian-iOSUITests";
+			productName = "Bayesian-iOSUITests";
+			productReference = 86C938B72124142A003A8645 /* Bayesian-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86C9388C21241429003A8645 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Even-Cheng";
+				TargetAttributes = {
+					86C9389321241429003A8645 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					86C938AB2124142A003A8645 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86C9389321241429003A8645;
+					};
+					86C938B62124142A003A8645 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86C9389321241429003A8645;
+					};
+				};
+			};
+			buildConfigurationList = 86C9388F21241429003A8645 /* Build configuration list for PBXProject "Bayesian-iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86C9388B21241429003A8645;
+			productRefGroup = 86C9389521241429003A8645 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86C9389321241429003A8645 /* Bayesian-iOS */,
+				86C938AB2124142A003A8645 /* Bayesian-iOSTests */,
+				86C938B62124142A003A8645 /* Bayesian-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86C9389221241429003A8645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C939C22124181C003A8645 /* iosjieba.bundle in Resources */,
+				86C938CC21241461003A8645 /* false.txt in Resources */,
+				86C938CE21241461003A8645 /* true.txt in Resources */,
+				86C938A42124142A003A8645 /* LaunchScreen.storyboard in Resources */,
+				861EFC2E2124462E00071E03 /* LICENSE.txt in Resources */,
+				861EFC2D2124462E00071E03 /* README.markdown in Resources */,
+				86C938A12124142A003A8645 /* Assets.xcassets in Resources */,
+				86C9389F2124142A003A8645 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C938AA2124142A003A8645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C938B52124142A003A8645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86C9389021241429003A8645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C9389C21241429003A8645 /* ViewController.mm in Sources */,
+				86C938A72124142A003A8645 /* main.m in Sources */,
+				861EFC332124462E00071E03 /* FMResultSet.m in Sources */,
+				861EFC322124462E00071E03 /* FMDatabasePool.m in Sources */,
+				861EFBF92124338D00071E03 /* CYAlertView.m in Sources */,
+				861EFC312124462E00071E03 /* FMDatabase.m in Sources */,
+				861EFC0C212443F100071E03 /* FalseModel.m in Sources */,
+				861EFC09212443E900071E03 /* DBHelper.m in Sources */,
+				861EFC2F2124462E00071E03 /* FMDatabaseQueue.m in Sources */,
+				861EFC08212443E900071E03 /* DBModel.m in Sources */,
+				861EFC302124462E00071E03 /* FMDatabaseAdditions.m in Sources */,
+				86C9389921241429003A8645 /* AppDelegate.m in Sources */,
+				86C939C12124181C003A8645 /* Segmentor.cpp in Sources */,
+				861EFC01212443CE00071E03 /* TrueModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C938A82124142A003A8645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C938B12124142A003A8645 /* Bayesian_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C938B32124142A003A8645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C938BC2124142A003A8645 /* Bayesian_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86C938AE2124142A003A8645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86C9389321241429003A8645 /* Bayesian-iOS */;
+			targetProxy = 86C938AD2124142A003A8645 /* PBXContainerItemProxy */;
+		};
+		86C938B92124142A003A8645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86C9389321241429003A8645 /* Bayesian-iOS */;
+			targetProxy = 86C938B82124142A003A8645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86C9389D2124142A003A8645 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86C9389E2124142A003A8645 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86C938A22124142A003A8645 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86C938A32124142A003A8645 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86C938BE2124142A003A8645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86C938BF2124142A003A8645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86C938C12124142A003A8645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B7G6YQ2J8;
+				INFOPLIST_FILE = "Bayesian-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evenCheng.Bayesian-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86C938C22124142A003A8645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B7G6YQ2J8;
+				INFOPLIST_FILE = "Bayesian-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evenCheng.Bayesian-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86C938C42124142A003A8645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B7G6YQ2J8;
+				INFOPLIST_FILE = "Bayesian-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evenCheng.Bayesian-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bayesian-iOS.app/Bayesian-iOS";
+			};
+			name = Debug;
+		};
+		86C938C52124142A003A8645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B7G6YQ2J8;
+				INFOPLIST_FILE = "Bayesian-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evenCheng.Bayesian-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bayesian-iOS.app/Bayesian-iOS";
+			};
+			name = Release;
+		};
+		86C938C72124142A003A8645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B7G6YQ2J8;
+				INFOPLIST_FILE = "Bayesian-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evenCheng.Bayesian-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bayesian-iOS";
+			};
+			name = Debug;
+		};
+		86C938C82124142A003A8645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B7G6YQ2J8;
+				INFOPLIST_FILE = "Bayesian-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evenCheng.Bayesian-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bayesian-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86C9388F21241429003A8645 /* Build configuration list for PBXProject "Bayesian-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C938BE2124142A003A8645 /* Debug */,
+				86C938BF2124142A003A8645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C938C02124142A003A8645 /* Build configuration list for PBXNativeTarget "Bayesian-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C938C12124142A003A8645 /* Debug */,
+				86C938C22124142A003A8645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C938C32124142A003A8645 /* Build configuration list for PBXNativeTarget "Bayesian-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C938C42124142A003A8645 /* Debug */,
+				86C938C52124142A003A8645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C938C62124142A003A8645 /* Build configuration list for PBXNativeTarget "Bayesian-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C938C72124142A003A8645 /* Debug */,
+				86C938C82124142A003A8645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86C9388C21241429003A8645 /* Project object */;
+}
